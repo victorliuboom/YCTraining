@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">YCTraining</string>
+    <bool name="is_updata">false</bool>
+    <bool name="is_remember">true</bool>
+    <bool name="is_autologin">false</bool>
+    <bool name="is_novisible">false</bool>
+    <bool name="is_online">false</bool>
+    <!--首页显示-->
+    <string name="shouye">首页</string>
+    <string name="kecheng">课程</string>
+    <string name="kaoshi">考试</string>
+    <string name="wode">我的</string>
+    <!--友好提示语言-->
+    <string name="message_invalid_username_password">账户或密码错误</string>
+    <string name="message_server_unavailable">无法连接到服务器</string>
+    <string name="unrecoverable_error">发生未知异常,连接失败</string>
+    <string name="please_open_net">请先联网!</string>
+    <string name="socket_exception_error">亲，访问数据超时，服务器无响应，请重试</string>
+    <string name="socket_exception">连接失败，请重试！</string>
+    <string name="request_outtime">您的网络缓慢，请求服务器超时</string>
+    <string name="network_not_connected">网络连接失败，请检查网络设置</string>
+    <string name="xml_parser_failed">数据解析异常</string>
+    <string name="notice_outline">下线通知</string>
+    <string name="login_outline">您的帐号已经在别处登录，请尽快修改密码！</string>
+    <string name="io_exception_error">文件流异常</string>
+    <string name="http_status_code_error">网络异常，错误码：%d</string>
+    <string name="http_exception_error">网络异常，请求超时</string>
+    <string name="app_run_code_error">应用程序运行时异常</string>
+    <string name="conn_outtime_error">outtime</string>
+    <string name="app_menu_surelogout">确定退出程序吗？</string>
+    <string name="sure">确定</string>
+    <string name="cancel">取消</string>
+    <string name="app_error">应用程序错误</string>
+    <string name="msg_single_logout">系统检测到您的账号在其他设备上登录，如非本人操作，则密码可能已泄露，请及时修改密码。</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="mine">我的主页</string>
+    <string name="wodekecheng">我的课程</string>
+</resources>

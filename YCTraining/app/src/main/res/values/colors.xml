@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#ffffff</color>
+    <color name="lightblack">#696969</color>
+    <color name="lightgray">#F7F7F7</color>
+    <color name="red_bg">#d64542</color>
+    <color name="background_tab_pressed">#6633B5E5</color>
+    <color name="red">#E43F3E</color>
+    <color name="home_bar_text_normal">#6a6c6f</color>
+    <color name="home_bar_text_push">#ff5959</color>
+    <color name="textnormal">#adadad</color>
+    <color name="black">#000000</color>
+</resources>

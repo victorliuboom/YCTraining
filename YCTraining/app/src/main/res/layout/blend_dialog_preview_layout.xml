@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginLeft="20dip"
+    android:layout_marginRight="20dip"
+    android:background="@drawable/blend_dialog_frame"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/blend_dialog_title"
+        android:layout_width="match_parent"
+        android:layout_height="30dip"
+        android:gravity="center"
+        android:text="下线 通知"
+        android:textColor="@color/lightblack"
+        android:textSize="16sp"
+        android:textStyle="normal" />
+
+    <LinearLayout
+        android:id="@+id/blend_dialog_preview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/text_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:maxLines="4"
+            android:layout_marginBottom="5dip"
+            android:layout_marginTop="5dip"
+            android:text="@string/msg_single_logout"
+            android:textColor="@color/lightblack"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:src="@mipmap/icon_line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dip"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/blend_dialog_cancle_btn"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/blend_view_bg_default"
+            android:gravity="center"
+            android:text="退出"
+            android:textColor="@color/red_bg"
+            android:textSize="14.0dip" />
+
+        <View
+            android:layout_width="1dip"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal|bottom"
+            android:background="#a2a2a2" />
+
+        <TextView
+            android:id="@+id/blend_dialog_relogin"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/blend_view_bg_default"
+            android:gravity="center"
+            android:text="重新登录"
+            android:textColor="@color/red_bg"
+            android:textSize="14.0dip" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--apsts-->
+    <declare-styleable name="AdvancedPagerSlidingTabStrip">
+        <attr name="apTabIndicatorColor" format="color"/>
+        <attr name="apTabUnderlineColor" format="color"/>
+        <attr name="apTabDividerColor" format="color"/>
+        <attr name="apTabTextSelectColor" format="color"/>
+        <attr name="apTabIndicatorHeight" format="dimension"/>
+        <attr name="apTabUnderlineHeight" format="dimension"/>
+        <attr name="apTabDividerPadding" format="dimension"/>
+        <attr name="apTabPaddingLeftRight" format="dimension"/>
+        <attr name="apTabPaddingTopBottom" format="dimension"/>
+        <attr name="apTabScrollOffset" format="dimension"/>
+        <attr name="apTabBackground" format="reference"/>
+        <attr name="apTabShouldExpand" format="boolean"/>
+        <attr name="apTabTextAllCaps" format="boolean"/>
+        <attr name="apTabDrawMode" format="enum">
+            <enum name="normal" value="0"/>
+            <enum name="text" value="1"/>
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="CircleImageView">
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+    </declare-styleable>
+</resources>
